@@ -10,7 +10,7 @@ export default [{
     id: '2',
     description: 'Groceries',
     note: '',
-    amount: 19500000,
+    amount: 2000,
     createdAt: moment(0).subtract(10, 'days').valueOf()
 }, {
     id: '3',
