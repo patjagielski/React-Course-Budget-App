@@ -5,22 +5,25 @@ exports[`render the Header correctly 1`] = `
   <h1>
     Budget Application
   </h1>
-  <NavLink
+  <[object Object]
     activeClassName="is-active"
-    ariaCurrent="true"
     exact={true}
-    to="/"
+    to="/dashboard"
   >
     Home
-  </NavLink>
+  </[object Object]>
   <br />
-  <NavLink
+  <[object Object]
     activeClassName="is-active"
-    ariaCurrent="true"
     to="/create"
   >
     Create Expense
-  </NavLink>
+  </[object Object]>
   <br />
+  <button
+    onClick={[Function]}
+  >
+    Logout
+  </button>
 </header>
 `;
